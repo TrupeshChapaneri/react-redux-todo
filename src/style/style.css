@@ -1,0 +1,38 @@
+.container-main {
+  height: 100vh;
+  padding: 90px 0 50px;
+}
+.d-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tabel-list {
+  margin-top: 20px;
+}
+.empty-table {
+  text-align: center !important;
+}
+.list-head {
+  margin-bottom: 30px;
+}
+.form-detail .MuiFormControl-root {
+  margin: 0 0 20px;
+}
+.edite-icon svg {
+  margin-left: 8px;
+  vertical-align: middle;
+}
+.select-table {
+  cursor: pointer;
+}
+.Toastify__toast-theme--light {
+  background: #3498db !important;
+  color: #fff !important;
+}
+.MuiFormHelperText-contained {
+  margin-left: 0 !important;
+}
+.cross-line {
+  text-decoration: line-through;
+}
