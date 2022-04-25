@@ -42,6 +42,7 @@ function TodoDetails({ setShowTodoDetail }) {
     },
   });
 
+  // reset data from redux store when edit
   useEffect(() => {
     if (singleTodo?.id) {
       reset({
@@ -51,6 +52,7 @@ function TodoDetails({ setShowTodoDetail }) {
     }
   }, [singleTodo, reset]);
 
+  // Clear data from redux store when this compo unmount
   useEffect(() => {
     if (editId) {
       return () => {

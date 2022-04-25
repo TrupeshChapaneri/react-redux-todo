@@ -267,6 +267,7 @@ function TodoList() {
           onClickYes={() => {
             setDeleteModal(false);
             dispatch(deleteTodo(todoIds));
+            toast("Todos Deleted");
             setTodoIds([]);
           }}
           isOpen={deleteModal}
